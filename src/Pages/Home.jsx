@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="Home">
       <Headline text={"Welcome to The Game"} />
-      <Button text={"P vs P"} click={() => dispatch(PvsP())} />
-      <Button text={"P vs Bot"} click={() => dispatch(PvsB())} />
+      <Button text={"Start"} click={() => dispatch(PvsP())} />
+      {/* <Button text={"P vs Bot"} click={() => dispatch(PvsB())} /> */}
     </div>
   );
 }
